@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0a3ac257e662dd181c67fdcf946cc9ea {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0a3ac257e662dd181c67fdcf946cc9ea" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0a3ac257e662dd181c67fdcf946cc9ea = L.map(
+                "map_0a3ac257e662dd181c67fdcf946cc9ea",
+                {
+                    center: [-23.6237, -46.5547],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4f7644cf8a555d6c6bd7fdce74699da6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4f7644cf8a555d6c6bd7fdce74699da6.addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+            var circle_marker_9534413603c5b7891eb2e37e2aeafc69 = L.circleMarker(
+                [-23.6123191, -46.5715152],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_15c921d2aeb3fd239bfbae86d610aeee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_792302e7a42df55f216cf1ee6e423c23 = $(`<div id="html_792302e7a42df55f216cf1ee6e423c23" style="width: 100.0%; height: 100.0%;"><b>Peralta Fitness</b><br>Preço: High</div>`)[0];
+                popup_15c921d2aeb3fd239bfbae86d610aeee.setContent(html_792302e7a42df55f216cf1ee6e423c23);
+            
+        
+
+        circle_marker_9534413603c5b7891eb2e37e2aeafc69.bindPopup(popup_15c921d2aeb3fd239bfbae86d610aeee)
+        ;
+
+        
+    
+    
+            var circle_marker_ece8d8315bed95774ed295fd02d8c41d = L.circleMarker(
+                [-23.6198638, -46.5770448],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_4c7d9b11f80f64380ef43b22a394362d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49979610277c83b1826498c340adb590 = $(`<div id="html_49979610277c83b1826498c340adb590" style="width: 100.0%; height: 100.0%;"><b>Ironberg</b><br>Preço: Medium</div>`)[0];
+                popup_4c7d9b11f80f64380ef43b22a394362d.setContent(html_49979610277c83b1826498c340adb590);
+            
+        
+
+        circle_marker_ece8d8315bed95774ed295fd02d8c41d.bindPopup(popup_4c7d9b11f80f64380ef43b22a394362d)
+        ;
+
+        
+    
+    
+            var circle_marker_783b285fd7979d0e1ea5f6f1d0f89630 = L.circleMarker(
+                [-23.6256721, -46.5493842],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_82d7e6eec74a2f514cd3ad9cf776d0d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72032f532d003ae73453ff11d504bb02 = $(`<div id="html_72032f532d003ae73453ff11d504bb02" style="width: 100.0%; height: 100.0%;"><b>Bluefit</b><br>Preço: Low</div>`)[0];
+                popup_82d7e6eec74a2f514cd3ad9cf776d0d3.setContent(html_72032f532d003ae73453ff11d504bb02);
+            
+        
+
+        circle_marker_783b285fd7979d0e1ea5f6f1d0f89630.bindPopup(popup_82d7e6eec74a2f514cd3ad9cf776d0d3)
+        ;
+
+        
+    
+    
+            var circle_marker_bbeed3fb947ecdbfd6cdb6346bd48939 = L.circleMarker(
+                [-23.6165049, -46.563894],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_512bc7d42dc893ed7d01f018c19567a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57e59c0969ac81478d2c786dc39b0c11 = $(`<div id="html_57e59c0969ac81478d2c786dc39b0c11" style="width: 100.0%; height: 100.0%;"><b>Evoque Academia Av. Goiás</b><br>Preço: Medium</div>`)[0];
+                popup_512bc7d42dc893ed7d01f018c19567a9.setContent(html_57e59c0969ac81478d2c786dc39b0c11);
+            
+        
+
+        circle_marker_bbeed3fb947ecdbfd6cdb6346bd48939.bindPopup(popup_512bc7d42dc893ed7d01f018c19567a9)
+        ;
+
+        
+    
+    
+            var circle_marker_f10cb39c06138a981b07f9b90d09fbf5 = L.circleMarker(
+                [-23.6186329, -46.5678496],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_4be1be69d2eea60fbce5286ccabf554e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce733e3873bd1b6e1be9a48437a43e50 = $(`<div id="html_ce733e3873bd1b6e1be9a48437a43e50" style="width: 100.0%; height: 100.0%;"><b>Academia RRFIT</b><br>Preço: Low</div>`)[0];
+                popup_4be1be69d2eea60fbce5286ccabf554e.setContent(html_ce733e3873bd1b6e1be9a48437a43e50);
+            
+        
+
+        circle_marker_f10cb39c06138a981b07f9b90d09fbf5.bindPopup(popup_4be1be69d2eea60fbce5286ccabf554e)
+        ;
+
+        
+    
+    
+            var circle_marker_ea14c9a186d6a84b9de2dfe6a2af434b = L.circleMarker(
+                [-23.6167979, -46.566589],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_77b9393aa5245e5689664594424c8a2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_259c36490ba256e1ddd5c4a399e507e7 = $(`<div id="html_259c36490ba256e1ddd5c4a399e507e7" style="width: 100.0%; height: 100.0%;"><b>Academia Inova São Caetano</b><br>Preço: Medium</div>`)[0];
+                popup_77b9393aa5245e5689664594424c8a2b.setContent(html_259c36490ba256e1ddd5c4a399e507e7);
+            
+        
+
+        circle_marker_ea14c9a186d6a84b9de2dfe6a2af434b.bindPopup(popup_77b9393aa5245e5689664594424c8a2b)
+        ;
+
+        
+    
+    
+            var circle_marker_e2df394e5cd2b0cd62302fb0025802f1 = L.circleMarker(
+                [-23.6081323, -46.5666083],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_0cc6f186d7ee98fbc07e231268f5fd13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7d5fd87d68f672224524622ba511681 = $(`<div id="html_e7d5fd87d68f672224524622ba511681" style="width: 100.0%; height: 100.0%;"><b>Smart Fit - Fundação</b><br>Preço: Low</div>`)[0];
+                popup_0cc6f186d7ee98fbc07e231268f5fd13.setContent(html_e7d5fd87d68f672224524622ba511681);
+            
+        
+
+        circle_marker_e2df394e5cd2b0cd62302fb0025802f1.bindPopup(popup_0cc6f186d7ee98fbc07e231268f5fd13)
+        ;
+
+        
+    
+    
+            var circle_marker_4f71ff8403c9c71f1d08d16ed65aaf08 = L.circleMarker(
+                [-23.6169544, -46.5633542],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_6913c78c17f351e3409c11a784a8d56f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f39d39cc1e253c2fa689a7d536e0b256 = $(`<div id="html_f39d39cc1e253c2fa689a7d536e0b256" style="width: 100.0%; height: 100.0%;"><b>Smart Fit - Santa Paula</b><br>Preço: Low</div>`)[0];
+                popup_6913c78c17f351e3409c11a784a8d56f.setContent(html_f39d39cc1e253c2fa689a7d536e0b256);
+            
+        
+
+        circle_marker_4f71ff8403c9c71f1d08d16ed65aaf08.bindPopup(popup_6913c78c17f351e3409c11a784a8d56f)
+        ;
+
+        
+    
+    
+            var circle_marker_1bc8cbcda3b21fdca97edb8d58b6fd52 = L.circleMarker(
+                [-23.6195923, -46.5688323],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_4fb6db1b1522879cdb8ba5c865b85eb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_114aefb6a859a56206289d0b61b89813 = $(`<div id="html_114aefb6a859a56206289d0b61b89813" style="width: 100.0%; height: 100.0%;"><b>Cross São Caetano</b><br>Preço: Medium</div>`)[0];
+                popup_4fb6db1b1522879cdb8ba5c865b85eb0.setContent(html_114aefb6a859a56206289d0b61b89813);
+            
+        
+
+        circle_marker_1bc8cbcda3b21fdca97edb8d58b6fd52.bindPopup(popup_4fb6db1b1522879cdb8ba5c865b85eb0)
+        ;
+
+        
+    
+    
+            var circle_marker_784773e2a17d597d5d90c6bef3db65d2 = L.circleMarker(
+                [-23.6169544, -46.5633542],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_42a63b02424acab72846d48fca0ee61a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f8ed80c011ea65caef8b5ca58af8076 = $(`<div id="html_8f8ed80c011ea65caef8b5ca58af8076" style="width: 100.0%; height: 100.0%;"><b>Sfida Fitness</b><br>Preço: Low</div>`)[0];
+                popup_42a63b02424acab72846d48fca0ee61a.setContent(html_8f8ed80c011ea65caef8b5ca58af8076);
+            
+        
+
+        circle_marker_784773e2a17d597d5d90c6bef3db65d2.bindPopup(popup_42a63b02424acab72846d48fca0ee61a)
+        ;
+
+        
+    
+    
+            var circle_marker_67fe3c3666cf3e789c974f1786ea5404 = L.circleMarker(
+                [-23.617744, -46.5679413],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_c8fd647f87e22bc892ed5693a10fb4fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69481a393d06980bf2994d69b6fafe82 = $(`<div id="html_69481a393d06980bf2994d69b6fafe82" style="width: 100.0%; height: 100.0%;"><b>Academia AGilis</b><br>Preço: Medium</div>`)[0];
+                popup_c8fd647f87e22bc892ed5693a10fb4fe.setContent(html_69481a393d06980bf2994d69b6fafe82);
+            
+        
+
+        circle_marker_67fe3c3666cf3e789c974f1786ea5404.bindPopup(popup_c8fd647f87e22bc892ed5693a10fb4fe)
+        ;
+
+        
+    
+    
+            var circle_marker_3baf2982b0d09f1d799a5a8da19e2c01 = L.circleMarker(
+                [-23.6241755, -46.5484198],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_79232d323a1df65da6c27823faed31e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a56028113b9115c032c40264510b1c08 = $(`<div id="html_a56028113b9115c032c40264510b1c08" style="width: 100.0%; height: 100.0%;"><b>Academia Eizens Sport Center</b><br>Preço: Medium</div>`)[0];
+                popup_79232d323a1df65da6c27823faed31e0.setContent(html_a56028113b9115c032c40264510b1c08);
+            
+        
+
+        circle_marker_3baf2982b0d09f1d799a5a8da19e2c01.bindPopup(popup_79232d323a1df65da6c27823faed31e0)
+        ;
+
+        
+    
+    
+            var circle_marker_429153dcfe8e69fedb24b8b0f1766f31 = L.circleMarker(
+                [-23.6131877, -46.5755028],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_da1765879aca287292fd9aa1276ab6e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99a2e7a6a6b06bc95907e4d83ba6c53b = $(`<div id="html_99a2e7a6a6b06bc95907e4d83ba6c53b" style="width: 100.0%; height: 100.0%;"><b>Academia Max Power</b><br>Preço: Low</div>`)[0];
+                popup_da1765879aca287292fd9aa1276ab6e0.setContent(html_99a2e7a6a6b06bc95907e4d83ba6c53b);
+            
+        
+
+        circle_marker_429153dcfe8e69fedb24b8b0f1766f31.bindPopup(popup_da1765879aca287292fd9aa1276ab6e0)
+        ;
+
+        
+    
+    
+            var circle_marker_be321d07cea99d6a2e646c277a07bc6e = L.circleMarker(
+                [-23.6042096, -46.5705455],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_eea367a6db25deada1e4284c9cc887b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_690cea2dbfac3921e98fd1c45924b321 = $(`<div id="html_690cea2dbfac3921e98fd1c45924b321" style="width: 100.0%; height: 100.0%;"><b>Academia Up Life</b><br>Preço: Medium</div>`)[0];
+                popup_eea367a6db25deada1e4284c9cc887b0.setContent(html_690cea2dbfac3921e98fd1c45924b321);
+            
+        
+
+        circle_marker_be321d07cea99d6a2e646c277a07bc6e.bindPopup(popup_eea367a6db25deada1e4284c9cc887b0)
+        ;
+
+        
+    
+    
+            var circle_marker_af2749ff97e425ebb78d835233b3e382 = L.circleMarker(
+                [-23.6340594, -46.5752863],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_781dab7a483ac503b0cc67a64c1b8b52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8962551248182044b8ff44518e008006 = $(`<div id="html_8962551248182044b8ff44518e008006" style="width: 100.0%; height: 100.0%;"><b>Academia Delphos</b><br>Preço: Medium</div>`)[0];
+                popup_781dab7a483ac503b0cc67a64c1b8b52.setContent(html_8962551248182044b8ff44518e008006);
+            
+        
+
+        circle_marker_af2749ff97e425ebb78d835233b3e382.bindPopup(popup_781dab7a483ac503b0cc67a64c1b8b52)
+        ;
+
+        
+    
+    
+            var circle_marker_59d60144d46fd46d0ac1bff7b7fdc857 = L.circleMarker(
+                [-23.6152387, -46.5806769],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_20eba4dbca4880bbb04e22d744515284 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc072d36f1de3b62c5be7f0719a7d536 = $(`<div id="html_cc072d36f1de3b62c5be7f0719a7d536" style="width: 100.0%; height: 100.0%;"><b>Fit Balance</b><br>Preço: Low</div>`)[0];
+                popup_20eba4dbca4880bbb04e22d744515284.setContent(html_cc072d36f1de3b62c5be7f0719a7d536);
+            
+        
+
+        circle_marker_59d60144d46fd46d0ac1bff7b7fdc857.bindPopup(popup_20eba4dbca4880bbb04e22d744515284)
+        ;
+
+        
+    
+    
+            var circle_marker_ae1380814d4b3190f37c5dd2b0dd146c = L.circleMarker(
+                [-23.6131877, -46.5755028],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_ebf6bf30ed87478ef881aacf1d405517 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ed899d54567cff6c5d4603d1abbde05 = $(`<div id="html_7ed899d54567cff6c5d4603d1abbde05" style="width: 100.0%; height: 100.0%;"><b>Max Power Modelagem Física</b><br>Preço: Low</div>`)[0];
+                popup_ebf6bf30ed87478ef881aacf1d405517.setContent(html_7ed899d54567cff6c5d4603d1abbde05);
+            
+        
+
+        circle_marker_ae1380814d4b3190f37c5dd2b0dd146c.bindPopup(popup_ebf6bf30ed87478ef881aacf1d405517)
+        ;
+
+        
+    
+    
+            var circle_marker_38594960e1faf549f019c4a345db5682 = L.circleMarker(
+                [-23.6297647, -46.5613798],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_9e9a978f3d45770a6bc13391e72d9200 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_246a77c516969061369eda019e84b063 = $(`<div id="html_246a77c516969061369eda019e84b063" style="width: 100.0%; height: 100.0%;"><b>Miani Fitness Academia</b><br>Preço: Medium</div>`)[0];
+                popup_9e9a978f3d45770a6bc13391e72d9200.setContent(html_246a77c516969061369eda019e84b063);
+            
+        
+
+        circle_marker_38594960e1faf549f019c4a345db5682.bindPopup(popup_9e9a978f3d45770a6bc13391e72d9200)
+        ;
+
+        
+    
+    
+            var circle_marker_17770d57511b9a551174250cea46f15d = L.circleMarker(
+                [-23.6190024, -46.562632],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_a1e6514fb7fa3f9ce82f919728749055 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_382616ee45da795d875fb7ee55632661 = $(`<div id="html_382616ee45da795d875fb7ee55632661" style="width: 100.0%; height: 100.0%;"><b>Scherk Academia</b><br>Preço: Medium</div>`)[0];
+                popup_a1e6514fb7fa3f9ce82f919728749055.setContent(html_382616ee45da795d875fb7ee55632661);
+            
+        
+
+        circle_marker_17770d57511b9a551174250cea46f15d.bindPopup(popup_a1e6514fb7fa3f9ce82f919728749055)
+        ;
+
+        
+    
+    
+            var circle_marker_921e4471522dc95aadf320ea506297ed = L.circleMarker(
+                [-23.6206756, -46.5751834],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_da4127d921ed896fbad50b5709d797aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_402fcf5561486df969f8f20f804620ca = $(`<div id="html_402fcf5561486df969f8f20f804620ca" style="width: 100.0%; height: 100.0%;"><b>Sprint Academia</b><br>Preço: Medium</div>`)[0];
+                popup_da4127d921ed896fbad50b5709d797aa.setContent(html_402fcf5561486df969f8f20f804620ca);
+            
+        
+
+        circle_marker_921e4471522dc95aadf320ea506297ed.bindPopup(popup_da4127d921ed896fbad50b5709d797aa)
+        ;
+
+        
+    
+    
+            var circle_marker_3049615c51282a0dfc5f5ed54d0bccef = L.circleMarker(
+                [-23.6296198, -46.5769161],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+    
+        var popup_31881a2a96085a5bf6ca45877fc57dd6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06de78917276fffef96d0599771384a2 = $(`<div id="html_06de78917276fffef96d0599771384a2" style="width: 100.0%; height: 100.0%;"><b>Espaço Cerâmica Crossfit</b><br>Preço: Medium</div>`)[0];
+                popup_31881a2a96085a5bf6ca45877fc57dd6.setContent(html_06de78917276fffef96d0599771384a2);
+            
+        
+
+        circle_marker_3049615c51282a0dfc5f5ed54d0bccef.bindPopup(popup_31881a2a96085a5bf6ca45877fc57dd6)
+        ;
+
+        
+    
+    
+            var heat_map_00ca70f391c251b04c00cc17751e3f57 = L.heatLayer(
+                [[-23.6123191, -46.5715152], [-23.6198638, -46.5770448], [-23.6256721, -46.5493842], [-23.6165049, -46.563894], [-23.6186329, -46.5678496], [-23.6167979, -46.566589], [-23.6081323, -46.5666083], [-23.6169544, -46.5633542], [-23.6195923, -46.5688323], [-23.6169544, -46.5633542], [-23.617744, -46.5679413], [-23.6241755, -46.5484198], [-23.6131877, -46.5755028], [-23.6042096, -46.5705455], [-23.6340594, -46.5752863], [-23.6152387, -46.5806769], [-23.6131877, -46.5755028], [-23.6297647, -46.5613798], [-23.6190024, -46.562632], [-23.6206756, -46.5751834], [-23.6296198, -46.5769161]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 13,
+  "radius": 15,
+  "blur": 25,
+}
+            );
+        
+    
+            heat_map_00ca70f391c251b04c00cc17751e3f57.addTo(map_0a3ac257e662dd181c67fdcf946cc9ea);
+        
+</script>
+</html>
