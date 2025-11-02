@@ -1,0 +1,33 @@
+🚀 COMANDOS PARA DEPLOY - DaniloBlancoMotta
+
+PASSO 1: Criar repositório no GitHub
+→ Acesse: https://github.com/new
+→ Nome: DataGymScraper
+→ Clique em "Create repository"
+
+PASSO 2: Execute estes comandos no terminal (PowerShell):
+
+git remote add origin https://github.com/DaniloBlancoMotta/DataGymScraper.git
+git branch -M main
+git push -u origin main
+
+PASSO 3: Ativar GitHub Pages
+→ Acesse: https://github.com/DaniloBlancoMotta/DataGymScraper/settings/pages
+→ Source: Deploy from a branch
+→ Branch: main
+→ Folder: / (root)
+→ Save
+
+✅ Mapa disponível em:
+https://daniloblancomotta.github.io/DataGymScraper/gym_map_sao_caetano.html
+
+PASSO 4: Deploy Streamlit Cloud
+→ Acesse: https://streamlit.io/cloud
+→ New app
+→ Repository: DaniloBlancoMotta/DataGymScraper
+→ Branch: main
+→ Main file: app.py
+→ Deploy
+
+✅ App disponível em:
+https://daniloblancomotta-datagym.streamlit.app
