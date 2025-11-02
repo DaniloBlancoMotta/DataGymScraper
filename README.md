@@ -2,10 +2,6 @@
 
 Análise estratégica de academias e agregadores (Wellhub e TotalPass) em São Caetano do Sul - SP.
 
-##  Demo
-
-[Ver aplicação ao vivo](https://seu-usuario.github.io/DataGymScraper)
-
 ## Funcionalidades
 
 - **Mapa Interativo**: Visualização geográfica das academias com classificação por preço
